@@ -1,0 +1,78 @@
+* {
+  border: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+h1 {
+  margin: 10px;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+main {
+  width: 500px;
+  background-color: rgb(250, 237, 230);
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+section {
+  margin: 20px;
+  font-size: 25px;
+  font-weight: 500;
+  display: flex;
+}
+.main__output {
+  text-align: end;
+  font-size: 25px;
+
+  width: 90%;
+  height: 60px;
+  margin: 20px;
+  background-color: white;
+  border: 1px solid;
+  color: black;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px rgb(236, 155, 155);
+}
+aside {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+article {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-basis: calc(33.33% - 20px); /* Adjust the width as needed */
+  padding: 20px;
+  box-shadow: 5px 5px 5px gray;
+  border: 1px solid;
+  background-color: rgb(26, 26, 25);
+  cursor: pointer;
+  transition: 0.4s ease-in;
+  border-radius: 5px;
+  color: whitesmoke;
+  font-size: 20px;
+  overflow: hidden;
+}
+input:hover {
+  background-color: white;
+  font-weight: 700;
+  color: black;
+  overflow: hidden;
+  transform: scale(1.03);
+}
